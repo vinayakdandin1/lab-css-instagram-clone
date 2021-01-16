@@ -46,17 +46,27 @@ body {
   display: flex;
 }
 
-/* .logo img {
-  
-} */
+.logo img {
+ width: 21rem; 
+}
 
 
 .homeButton {
- color: white;
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: .4rem .1rem;
+  margin-top: 1.2rem;
+  margin-right: .5rem;
+  border-radius: .2rem;
 }
 
 .homeButton p {
-  display: inline-block;
+  font-weight: bold;
 }
 
 .homeButton img{
@@ -103,6 +113,6 @@ footer {
 }
 
 footer span {
-  color: #B0B0B0;
+  color: #A9A9A9;
 }
 
