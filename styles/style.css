@@ -4,7 +4,105 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bBackground {
+  height: 18rem;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+}
+
+.main {
+  position: relative;
+  bottom: 13rem;
+  margin: 0 15rem;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.phone img{
+  width: 110%;
+}
+
+.content {
+  padding-top: 2rem;
+  width: 50%;
+}
+
+.contentLogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+/* .logo img {
+  
+} */
+
+
+.homeButton {
+ color: white;
+}
+
+.homeButton p {
+  display: inline-block;
+}
+
+.homeButton img{
+  width: 30%;
+}
+
+.frameContent {
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 0.8rem;
+  padding: 2.2rem 2.7rem;
+}
+
+.frameContent span {
+  font-weight: bold;
+}
+
+.tagLine {
+  color: #06365f;
+  font-weight:700;
+  font-size: 1.8rem;
+  line-height: 110%;
+}
+
+.downloads {
+  display: flex;
+  padding-left: 2.2rem;
+}
+
+.download_android {
+  padding-left: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 10rem;
+  margin: 0 25rem ;
+  font-size: small;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+footer span {
+  color: #B0B0B0;
+}
+
